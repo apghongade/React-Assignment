@@ -49,7 +49,6 @@ const ParentComponent = () => {
   );
 };
 
-// Main App Component
 const App = () => {
   return (
     <div className="app">
