@@ -21,6 +21,7 @@ const ParentComponent = () => {
 
   const handleButtonClick = (number) => {
     if (disabledButtons.includes(number)) return; 
+    console.log(number);
     
     setSelectedButtons((prevSelectedButtons) => {
       if (prevSelectedButtons.includes(number)) {
