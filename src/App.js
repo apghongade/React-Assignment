@@ -8,7 +8,7 @@ const Button = ({ number, isDisabled, isSelected, onClick }) => {
       onClick={() => onClick(number)} 
       className={`button ${isDisabled ? 'disabled' : ''} ${isSelected ? 'selected' : ''}`}
     >
-      <span>{number}</span>  {/* Display the button number */}
+      <span>{number}</span> 
     </button>
   );
 };
