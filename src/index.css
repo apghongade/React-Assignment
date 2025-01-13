@@ -1,15 +1,13 @@
-/* Reset default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set a consistent font across the application */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9; /* Light grey background color */
-  color: #333; /* Dark text color for readability */
+  background-color: #f4f4f9; 
+  color: #333; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +19,6 @@ body {
   text-align: center;
 }
 
-/* Optional container for centering content */
 .button-container {
   display: flex;
   flex-wrap: wrap;
@@ -29,9 +26,8 @@ body {
   margin-top: 20px;
 }
 
-/* Button style resets */
 button {
-  border: 2px solid green; /* Green border for normal buttons */
+  border: 2px solid green; 
   background-color: white;
   color: green;
   margin: 5px;
@@ -41,28 +37,24 @@ button {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Disabled button style */
 button:disabled {
-  background-color: #f0f0f0; /* Light grey background */
-  color: #999; /* Grey text */
-  border: 2px solid #dcdcdc; /* Grey border for disabled buttons */
-  cursor: not-allowed; /* Show the 'not-allowed' cursor */
+  background-color: #f0f0f0; 
+  color: #999; 
+  border: 2px solid #dcdcdc; 
+  cursor: not-allowed;
 }
 
-/* Selected button style */
 button.selected {
   background-color: green;
   color: white;
 }
 
-/* Button number style */
 button span {
   color: green;
 }
 
-/* Disabled number style */
 button:disabled span {
-  color: #999; /* Grey color for the number when disabled */
+  color: #999; 
 }
 
 /* Optional header style */
